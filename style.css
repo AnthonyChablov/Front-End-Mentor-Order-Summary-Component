@@ -1,0 +1,121 @@
+/* Globals */
+*,*::before,*::after{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+img{
+    width: 100%;
+}
+
+/* Font / Header styling */
+.h2-styling{font-size: 15px;}
+.p-styling{color:  hsl(224, 23%, 55%); font-weight: 500;}
+
+
+.container{
+    width: 375px;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.container-2{
+    width: 80%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+
+.content{
+    padding: 80px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.content--btn{
+    font-size: 14px;
+}
+
+
+.hero{
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.hero__content--text{
+    padding-top: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+} 
+.content-2{
+    width: 82%;
+}
+.h1-padding-btm{
+    padding-bottom: 15px;
+}
+.p-padding{
+    padding-bottom: 25px;
+}
+
+.plan__content{
+    padding: 20px;
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.plan__content--image{
+    width: 20%;
+}
+.plan__content--text{
+    width: 50%;  
+}
+.plan__content--btn{
+    width: 20%;
+}
+.content--btn:hover{
+    text-decoration: none;
+    filter: opacity(65%);
+}
+.hero__content--button-pay{
+    text-align: center;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 3px 20px hsl(245, 58%, 60%);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.hero__content--button-pay:hover{
+    filter: opacity(75%);
+    cursor: pointer;
+}
+.button-pay{
+    text-decoration: none;
+    color: #fff;
+}
+.hero__content--button-cancel{
+    text-align: center;
+    padding-bottom: 37px;
+}
+.hero__content--button-cancel:hover{
+    filter: brightness(40%);
+    cursor: pointer;
+}
+.cancel-styling{
+    font-weight: 700;
+    color:  hsl(224, 23%, 55%);
+    text-decoration: none;
+}
